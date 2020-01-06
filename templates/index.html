@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+{% block title %}Play the Memory Game!{% endblock %}
+{% block content %}
+<main>
+    <div id="main_div" class="container">
+
+        <form id="nick_and_board_form">
+            <div class="text-center form-group">
+                <h1 style="margin-bottom: 30px;">Memory Game</h1>
+                <label> Nick: <input type="text" placeholder="Nick must have 3-8 chars" id="nick"/></label>
+            </div>
+
+            <div class="text-center form-group">
+                How many cards?
+                <select id="card_number_menu">
+                    <option value="6">6</option>
+                    <option value="12">12</option>
+                    <option value="18">18</option>
+                    <option value="24">24</option>
+                    <option value="30">30</option>
+                    <option value="36">36</option>
+                </select>
+            </div>
+
+            <div class="text-center form-group">
+                <button>Play the game</button>
+            </div>
+        </form>
+
+    </div>
+</main>
+{% endblock %}

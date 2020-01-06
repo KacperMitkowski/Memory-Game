@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+{% block title %}Winners{% endblock %}
+{% block content %}
+
+<div class="container">
+    <div class="row justify-content-center display-1">
+        Winners
+    </div>
+    <div class="row justify-content-center">
+        <div class="border border-dark p-2 col-2">
+            <span class="header">Position</span>
+        </div>
+        <div class="border border-dark p-2 col-2">
+            <span class="header">Nick</span>
+        </div>
+        <div class="border border-dark p-2 col-2">
+            <span class="header">Seconds</span>
+        </div>
+        <div class="border border-dark p-2 col-2">
+            <span class="header">Turns</span>
+        </div>
+        <div class="border border-dark p-2 col-2">
+            <span class="header">Cards</span>
+        </div>
+    </div>
+
+    {% for winner in winners %}
+    <div class="row justify-content-center">
+        <div class="border border-dark  p-2 col-2">
+            {{ loop.index }}
+        </div>
+        <div class="border border-dark  p-2 col-2">
+            {{ winner['nick'] }}
+        </div>
+        <div class="border border-dark  p-2 col-2">
+            {{ winner['seconds'] }}
+        </div>
+        <div class="border border-dark  p-2 col-2">
+            {{ winner['turns'] }}
+        </div>
+        <div class="border border-dark  p-2 col-2">
+            {{ winner['number_of_cards'] }}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
