@@ -13,7 +13,7 @@ The project was created during my education in Codecool.<br/>
   * HTML/CSS, Bootstrap
   * DOM manipulation
   * web design
-* practice backend skills (list of winners and their results:
+* practice backend skills (list of winners and their results):
   * SQL
 
 ## Used technology:
