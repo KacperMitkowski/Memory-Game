@@ -26,5 +26,9 @@ The project was created during my education in Codecool.<br/>
 
 ## Screenshots:
 
+Start page:
 ![alt text](https://github.com/KacperMitkowski/Memory-Game/blob/master/screenshots/memory_1.png)
+The game:
 ![alt text](https://github.com/KacperMitkowski/Memory-Game/blob/master/screenshots/memory_2.png)
+List of winners:
+![alt text](https://github.com/KacperMitkowski/Memory-Game/blob/master/screenshots/memory_3.png)
