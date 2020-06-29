@@ -18,11 +18,10 @@ The project was created during my education in Codecool.<br/>
 
 ## Used technology:
 * JavaScript
-* Flask (micro web framework for Python)
+* Flask 
 * HTML
 * CSS, Bootstrap
-* Python
-* SQL
+* Python (Postgres)
 
 ## Screenshots:
 
